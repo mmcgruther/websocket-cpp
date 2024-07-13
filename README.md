@@ -1,0 +1,3 @@
+CMAKE:
+VCPKG_TARGET_TRIPLET x64-windows
+CMAKE_TOOLCHAIN_FILE path_to_vcpkg\scripts\buildsystems\vcpkg.cmake
