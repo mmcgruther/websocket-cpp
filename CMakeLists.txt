@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.30)
+set(CMAKE_CXX_STANDARD 20)
+project(CrowExample)
+find_package(Crow CONFIG REQUIRED)
+find_package(ZLIB REQUIRED)
+find_package(libuv CONFIG REQUIRED)
+find_path(UWEBSOCKETS_INCLUDE_DIRS "uwebsockets/App.h")
+add_subdirectory(CrowExample)
